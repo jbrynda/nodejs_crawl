@@ -27,7 +27,7 @@ const extractLinks = async (url) => {
       }
     });
 
-    console.log(links);
+    // console.log(links);
     return links;
   } catch (error) {
     console.log(error.response.body);
